@@ -1,9 +1,9 @@
-import './App.css';
-import SideBar from './components/SideBar';
 
+import SideBar from './components/SideBar';
+import './css/style.css';
 function App() {
   return (
-    <div className="App">
+    <div className="container-large">
       <SideBar />
     </div>
   );

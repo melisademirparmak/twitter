@@ -1,0 +1,33 @@
+@import 'variables';
+
+.sideBarList {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: $twitter-color;
+    transition: $twitter-color 100ms ease-out;
+  }
+
+  svg {
+    margin: 10px;
+    font-size: 24px;
+    height: 32px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+.sidebarListActive {
+  color: $twitter-color;
+  h2 {
+    font-weight: 700;
+  }
+}
