@@ -11,9 +11,9 @@
 .sideBarList:hover {
   background-color: #e8f5fe;
   border-radius: 30px;
-  color: #50b7f5;
-  -webkit-transition: #50b7f5 100ms ease-out;
-  transition: #50b7f5 100ms ease-out;
+  color: #1d9bf0;
+  -webkit-transition: #1d9bf0 100ms ease-out;
+  transition: #1d9bf0 100ms ease-out;
 }
 
 .sideBarList svg {
@@ -29,15 +29,26 @@
 }
 
 .sidebarListActive {
-  color: #50b7f5;
+  color: #1d9bf0;
 }
 
 .sidebarListActive h2 {
   font-weight: 700;
 }
 
+.sideBarBtn {
+  background-color: #1d9bf0;
+  color: #fff;
+  font-weight: 900;
+  text-transform: inherit;
+  border-radius: 30px;
+  height: 50px;
+  width: 170px;
+  margin-top: 20px;
+}
+
 .container-large {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
 }
 
