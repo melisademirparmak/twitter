@@ -1,4 +1,9 @@
 .container-large {
-  width: 1280px;
+  width: 1300px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+.app {
+  display: flex;
+  height: 100vh;
 }

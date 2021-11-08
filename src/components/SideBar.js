@@ -11,8 +11,8 @@ import SideBarList from './SideBarList';
 
 const SideBar = () => {
   return (
-    <div className="sidebar">
-      <AiOutlineTwitter />
+    <div className="sideBar">
+      <AiOutlineTwitter className="sideBarTwitterIcon"/>
 
       <SideBarList active text="Home" Icon={AiTwotoneHome} />
       <SideBarList text="Explore" Icon={HiOutlineHashtag} />

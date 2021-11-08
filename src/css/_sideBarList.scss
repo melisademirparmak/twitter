@@ -5,6 +5,13 @@
   align-items: center;
   cursor: pointer;
 
+  &Active {
+    color: $twitter-color;
+    h2 {
+      font-weight: 700;
+    }
+  }
+
   &:hover {
     background-color: $background-hover;
     border-radius: 30px;
@@ -23,22 +30,4 @@
     font-size: 20px;
     margin-right: 20px;
   }
-}
-
-.sidebarListActive {
-  color: $twitter-color;
-  h2 {
-    font-weight: 700;
-  }
-}
-
-.sideBarBtn {
-  background-color: $twitter-color;
-  color: $color-white;
-  font-weight: 900;
-  text-transform: inherit;
-  border-radius: 30px;
-  height: 50px;
-  width: 170px;
-  margin-top: 20px;
 }

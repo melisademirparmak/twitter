@@ -8,6 +8,14 @@
   cursor: pointer;
 }
 
+.sideBarListActive {
+  color: #1d9bf0;
+}
+
+.sideBarListActive h2 {
+  font-weight: 700;
+}
+
 .sideBarList:hover {
   background-color: #e8f5fe;
   border-radius: 30px;
@@ -28,12 +36,28 @@
   margin-right: 20px;
 }
 
-.sidebarListActive {
-  color: #1d9bf0;
+.feed {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  border-right: 1px solid #e6ecf0;
 }
 
-.sidebarListActive h2 {
-  font-weight: 700;
+.sideBar {
+  border-right: 1px solid #e6ecf0;
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-height: 100%;
+}
+
+.sideBarTwitterIcon {
+  color: #1d9bf0;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .sideBarBtn {
@@ -48,8 +72,16 @@
 }
 
 .container-large {
-  width: 1280px;
+  width: 1300px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
 }
 
 * {

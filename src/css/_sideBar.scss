@@ -1,0 +1,26 @@
+@import 'variables';
+.sideBar {
+  border-right: 1px solid $twitter-background;
+  flex: 0.2;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-height: 100%;
+
+  &TwitterIcon {
+    color: $twitter-color;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  &Btn {
+    background-color: $twitter-color;
+    color: $color-white;
+    font-weight: 900;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    margin-top: 20px;
+  }
+}
