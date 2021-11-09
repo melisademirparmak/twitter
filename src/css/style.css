@@ -8,11 +8,11 @@
   cursor: pointer;
 }
 
-.sideBarListActive {
+.sideBarList__Active {
   color: #1d9bf0;
 }
 
-.sideBarListActive h2 {
+.sideBarList__Active h2 {
   font-weight: 700;
 }
 
@@ -51,7 +51,7 @@
   display: none;
 }
 
-.feed-header {
+.feed__header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -61,7 +61,7 @@
   padding: 15px 20px;
 }
 
-.feed-header h2 {
+.feed__header h2 {
   font-size: 20px;
   font-weight: 800;
 }
@@ -77,13 +77,13 @@
   max-height: 100%;
 }
 
-.sideBarTwitterIcon {
+.sideBar__TwitterIcon {
   color: #1d9bf0;
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.sideBarBtn {
+.sideBar__Btn {
   background-color: #1d9bf0;
   color: #fff;
   font-weight: 900;

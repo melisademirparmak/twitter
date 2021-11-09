@@ -12,7 +12,7 @@ import SideBarList from './SideBarList';
 const SideBar = () => {
   return (
     <div className="sideBar">
-      <AiOutlineTwitter className="sideBarTwitterIcon"/>
+      <AiOutlineTwitter className="sideBar__TwitterIcon" />
 
       <SideBarList active text="Home" Icon={AiTwotoneHome} />
       <SideBarList text="Explore" Icon={HiOutlineHashtag} />
@@ -22,7 +22,7 @@ const SideBar = () => {
       <SideBarList text="Lists" Icon={BsCardList} />
       <SideBarList text="More" Icon={CgMoreO} />
 
-      <button className="sideBarBtn">Tweet</button>
+      <button className="sideBar__Btn">Tweet</button>
     </div>
   );
 };
