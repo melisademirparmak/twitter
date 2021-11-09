@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Widgest() {
+function Widgets() {
   return (
     <div>
       <h2>Widgest</h2>
@@ -8,4 +8,4 @@ function Widgest() {
   );
 }
 
-export default Widgest;
+export default Widgets;

@@ -4,14 +4,20 @@
   flex: 0.5;
   border-right: 1px solid $twitter-background;
   width: fit-content;
+  // background-color: red;
+
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   &-header {
     position: sticky;
     top: 0;
     background-color: $white;
     z-index: 100;
-    border: 1px solid $twitter-background;
+    border: 1px solid $twitter-background !important;
     padding: 15px 20px;
 
     h2 {

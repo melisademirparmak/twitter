@@ -47,13 +47,17 @@
   overflow-y: scroll;
 }
 
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
 .feed-header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 100;
-  border: 1px solid #e6ecf0;
+  border: 1px solid #e6ecf0 !important;
   padding: 15px 20px;
 }
 
