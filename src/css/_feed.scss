@@ -4,7 +4,6 @@
   flex: 0.5;
   border-right: 1px solid $twitter-background;
   width: fit-content;
-  // background-color: red;
 
   overflow-y: scroll;
 
@@ -18,11 +17,11 @@
     background-color: $white;
     z-index: 100;
     border: 1px solid $twitter-background !important;
-    padding: 15px 20px;
+    padding: 7px;
 
     h2 {
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 23px;
+      padding-top: 10px;
     }
   }
 }

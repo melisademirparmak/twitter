@@ -36,6 +36,34 @@
   margin-right: 20px;
 }
 
+.sideBar {
+  border-right: 1px solid #e6ecf0;
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-height: 100%;
+}
+
+.sideBar__TwitterIcon {
+  color: #1d9bf0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sideBar__Btn {
+  background-color: #1d9bf0;
+  color: #fff;
+  font-weight: 900;
+  text-transform: inherit;
+  border-radius: 30px;
+  height: 50px;
+  width: 170px;
+  margin-top: 20px;
+}
+
 .feed {
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5;
@@ -58,40 +86,67 @@
   background-color: #fff;
   z-index: 100;
   border: 1px solid #e6ecf0 !important;
-  padding: 15px 20px;
+  padding: 7px;
 }
 
 .feed__header h2 {
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 23px;
+  padding-top: 10px;
 }
 
-.sideBar {
-  border-right: 1px solid #e6ecf0;
-  -webkit-box-flex: 0.2;
-      -ms-flex: 0.2;
-          flex: 0.2;
-  margin-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-  max-height: 100%;
+.tweetBox {
+  padding: 0 10px 10px 0;
+  border-bottom: 1px solid #e6ecf0;
 }
 
-.sideBar__TwitterIcon {
-  color: #1d9bf0;
-  font-size: 40px;
-  margin-bottom: 20px;
+.tweetBox > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.sideBar__Btn {
+.tweetBox > form input {
+  border: none;
+  line-height: 48px;
+  font-size: 17px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 8px;
+}
+
+.tweetBox__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.tweetBox__input img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tweetBox__btn {
   background-color: #1d9bf0;
   color: #fff;
-  font-weight: 900;
   text-transform: inherit;
   border-radius: 30px;
-  height: 50px;
-  width: 170px;
+  width: 80px;
+  height: 40px;
   margin-top: 20px;
+  margin-left: auto;
+  font-weight: 900;
 }
 
 .container-large {

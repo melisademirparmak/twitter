@@ -1,0 +1,39 @@
+@import 'variables';
+.tweetBox {
+  padding: 0 10px 10px 0;
+  border-bottom: 1px solid $twitter-background;
+  & > form {
+    display: flex;
+    flex-direction: column;
+    input {
+      border: none;
+      line-height: 48px;
+      font-size: 17px;
+      flex: 1;
+      margin-left: 8px;
+    }
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  &__btn {
+    background-color: $twitter-color;
+    color: $white;
+    text-transform: inherit;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    font-weight: 900;
+  }
+}
