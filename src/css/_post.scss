@@ -1,8 +1,59 @@
+@import 'variables';
+
 .post {
-  &__avatar {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid $twitter-background;
+  padding-bottom: 10px;
+
+  &__body {
+    flex: 1;
+    padding: 10px;
+
+    img {
+      border-radius: 20px;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 11px;
+      margin-left: 5px;
+      color: $gray;
+    }
   }
-  
+  &__headerText {
+    font-size: 15px;
+    margin-bottom: 5px;
+
+    h3 {
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__avatar {
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-top: 3px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  &__headerDescription {
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    color: $text-color;
+  }
 }
