@@ -149,6 +149,13 @@
   font-weight: 900;
 }
 
+.post__avatar {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .container-large {
   width: 1300px;
   margin: 0 auto;
@@ -160,6 +167,16 @@
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+}
+
+/*@Flex*/
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {
