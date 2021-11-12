@@ -153,7 +153,7 @@
 
 .tweetBox__icon svg {
   margin-left: 10px;
-  color: #696262 !important;
+  color: #1d9bf0;
   cursor: pointer;
 }
 
@@ -235,6 +235,76 @@
   letter-spacing: 0.1px;
   line-height: 18px;
   color: #696262;
+}
+
+.widgest {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+
+.widgest__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e6ecf0;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgest__input svg {
+  color: #696262;
+}
+
+.widgest__input input {
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.widgest__container {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border: 1px solid #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgest__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.widgest__top svg {
+  color: #696262;
+}
+
+.widgest__trend {
+  margin-top: 10px;
+}
+
+.widgest__trend span {
+  color: #696262;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.widgest__trend h4 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .container-large {

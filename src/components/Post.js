@@ -5,6 +5,7 @@ import { BiHeart } from '@react-icons/all-files/bi/BiHeart';
 import { FiShare } from '@react-icons/all-files/fi/FiShare';
 import Posts from '../api/post.json';
 
+
 function Post() {
   return (
     <>
