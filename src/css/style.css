@@ -137,16 +137,36 @@
      object-fit: cover;
 }
 
+.tweetBox__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tweetBox__icon svg {
+  margin-left: 10px;
+  color: #696262 !important;
+  cursor: pointer;
+}
+
 .tweetBox__btn {
   background-color: #1d9bf0;
   color: #fff;
   text-transform: inherit;
   border-radius: 30px;
   width: 80px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: auto;
-  font-weight: 900;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .post {

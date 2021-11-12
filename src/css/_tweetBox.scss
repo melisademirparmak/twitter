@@ -25,15 +25,30 @@
       object-fit: cover;
     }
   }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  &__icon {
+    svg {
+      margin-left: 10px;
+      color: $text-color !important;
+      cursor: pointer;
+    }
+  }
   &__btn {
     background-color: $twitter-color;
     color: $white;
     text-transform: inherit;
     border-radius: 30px;
     width: 80px;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: auto;
-    font-weight: 900;
+    height: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 12px;
   }
 }

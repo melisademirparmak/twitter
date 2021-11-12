@@ -23,6 +23,7 @@
     "name": "React Developer",
     "userName": "@reactdev",
     "time": "2h",
-    "text": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”."
+    "text": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.",
+    "photo": "https://www.gencprogramci.org/wp-content/uploads/2021/04/React.png"
   }
 ]
