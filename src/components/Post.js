@@ -27,7 +27,7 @@ function Post() {
                   <p>{post.text}</p>
                 </div>
               </div>
-              <img src={post.photo} alt="" />
+              {post.photo && <img src={post.photo} alt="" />}
               <div className="post__footer">
                 <BsFillReplyFill />
                 <AiOutlineRetweet />
