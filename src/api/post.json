@@ -5,8 +5,7 @@
     "name": "Melisa Demirparmak",
     "userName": "@melisadeveloper",
     "time": "13h",
-    "text": "Getir the clone was done exactly. Technologies I use are React and Tailwind. Also used npm packages as an extra helper.",
-    "photo": "https://camo.githubusercontent.com/444d5787a9c480459e9287a48cc1e7ed3ec82ce3d341f2a3fd069c3b37f911e4/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830313930393038333232303437353931342f3930353537373034353737363536343236352f436170747572652e504e47"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   },
   {
     "id": 2,
@@ -17,8 +16,18 @@
     "text": "This is a React-based e-commerce shopping project. MockAPI is used to get card information, and goods may be added to or deleted from the shopping cart or favorites area. User authentication is handled by Firebase, payment is handled by Stripe, and form validation is handled by Formik and yup.",
     "photo": "https://camo.githubusercontent.com/1c7b4d5c1792f7bd26b85e19dcc5a692f65ab153c2789240fdfab010b26070ef/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3836323933313834313738313333343034362f3837363534333830333031343634333732322f53637265656e73686f745f323032312d30382d31355f61745f32322d31302d32375f4d6f72655f486f6d652e706e673f77696474683d31323930266865696768743d353733"
   },
+
   {
     "id": 3,
+    "avatar": "https://www.cnet.com/a/img/liJ9UZA87zs1viJiuEfVnL7YYfw=/940x0/2020/05/18/5bac8cc1-4bd5-4496-a8c3-66a6cd12d0cb/fb-avatar-2.jpg",
+    "name": "Hira",
+    "userName": "@hira",
+    "time": "1h",
+    "text": "Getir the clone was done exactly. Technologies I use are React and Tailwind. Also used npm packages as an extra helper.",
+    "photo": "https://camo.githubusercontent.com/444d5787a9c480459e9287a48cc1e7ed3ec82ce3d341f2a3fd069c3b37f911e4/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830313930393038333232303437353931342f3930353537373034353737363536343236352f436170747572652e504e47"
+  },
+  {
+    "id": 4,
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTboP3I7YVTIvLusl6s0sph0CDmXVW6wY4u8atSX4D2OKCfh7auYYZi0zuJpPmd8VmmA38&usqp=CAU",
     "name": "React Developer",
     "userName": "@reactdev",
