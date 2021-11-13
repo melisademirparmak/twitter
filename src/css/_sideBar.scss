@@ -22,5 +22,12 @@
     height: 50px;
     width: 170px;
     margin-top: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $twitter-color;
+      opacity: 0.9;
+      transition: $twitter-color 100ms ease-out;
+    }
   }
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "trend": "Trend in World",
+    "hastag": "#newGraduated",
+    "tweets": "4,569 Tweets"
+  },
+  {
+    "id": 2,
+    "trend": "Trend in Turkey",
+    "hastag": "#frontend ",
+    "tweets": "9,743 Tweets"
+  },
+  {
+    "id": 3,
+    "trend": "Trend",
+    "hastag": "#school",
+    "tweets": "1,769Tweets"
+  },
+  {
+    "id": 3,
+    "trend": "Trend",
+    "hastag": "#school",
+    "tweets": "1,769Tweets"
+  },
+  {
+    "id": 3,
+    "trend": "Trend",
+    "hastag": "#school",
+    "tweets": "1,769Tweets"
+  },
+  {
+    "id": 3,
+    "trend": "Trend",
+    "hastag": "#school",
+    "tweets": "1,769Tweets"
+  }
+]

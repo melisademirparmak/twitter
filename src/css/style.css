@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
 .sideBarList {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,19 +10,19 @@
 }
 
 .sideBarList__Active {
-  color: #1d9bf0;
+  color: black;
 }
 
 .sideBarList__Active h2 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .sideBarList:hover {
-  background-color: #e8f5fe;
+  background-color: #f5f8fa !important;
   border-radius: 30px;
-  color: #1d9bf0;
-  -webkit-transition: #1d9bf0 100ms ease-out;
-  transition: #1d9bf0 100ms ease-out;
+  color: black;
+  -webkit-transition: #f5f8fa 100ms ease-out;
+  transition: #f5f8fa 100ms ease-out;
 }
 
 .sideBarList svg {
@@ -62,6 +63,14 @@
   height: 50px;
   width: 170px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.sideBar__Btn:hover {
+  background-color: #1d9bf0;
+  opacity: 0.9;
+  -webkit-transition: #1d9bf0 100ms ease-out;
+  transition: #1d9bf0 100ms ease-out;
 }
 
 .feed {
@@ -152,9 +161,17 @@
 }
 
 .tweetBox__icon svg {
-  margin-left: 10px;
+  margin: 10px;
   color: #1d9bf0;
   cursor: pointer;
+  padding: 5px !important;
+  width: 27px;
+  height: 27px;
+}
+
+.tweetBox__icon svg:hover {
+  background-color: #f5f8fa;
+  border-radius: 50%;
 }
 
 .tweetBox__btn {
@@ -178,6 +195,12 @@
           align-items: flex-start;
   border-bottom: 1px solid #e6ecf0;
   padding-bottom: 10px;
+}
+
+.post:hover {
+  background-color: #f5f8fa;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .post__body {
@@ -250,7 +273,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e6ecf0;
+  background-color: #f5f8fa;
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
@@ -271,7 +294,7 @@
 .widgest__container {
   margin-top: 15px;
   margin-left: 20px;
-  padding: 20px;
+  padding: 12px;
   background-color: #f5f8fa;
   border: 1px solid #f5f8fa;
   border-radius: 20px;
@@ -303,8 +326,21 @@
 .widgest__trend h4 {
   margin-top: 3px;
   margin-bottom: 3px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
+  color: #0f1419;
+}
+
+.widgest__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container-large {
@@ -342,7 +378,7 @@ ol {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 ul,

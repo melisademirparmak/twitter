@@ -6,17 +6,17 @@
   cursor: pointer;
 
   &__Active {
-    color: $twitter-color;
+    color: black;
     h2 {
-      font-weight: 700;
+      font-weight: 700 !important;
     }
   }
 
   &:hover {
-    background-color: $background-hover;
+    background-color: $background-post !important;
     border-radius: 30px;
-    color: $twitter-color;
-    transition: $twitter-color 100ms ease-out;
+    color: black;
+    transition: $background-post 100ms ease-out;
   }
 
   svg {

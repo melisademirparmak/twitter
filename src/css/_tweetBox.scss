@@ -35,9 +35,17 @@
   }
   &__icon {
     svg {
-      margin-left: 10px;
+      margin: 10px;
       color: $twitter-color;
       cursor: pointer;
+      padding: 5px !important;
+      width: 27px;
+      height: 27px;
+
+      &:hover {
+        background-color: $background-post;
+        border-radius: 50%;
+      }
     }
   }
   &__btn {

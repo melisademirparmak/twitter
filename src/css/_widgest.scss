@@ -6,17 +6,17 @@
   &__input {
     display: flex;
     align-items: center;
-    background-color: $twitter-background;
+    background-color: $background-post;
     padding: 10px;
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
 
-    & svg {
+    svg {
       color: $text-color;
     }
 
-    & input {
+    input {
       border: none;
       background-color: transparent;
       margin-left: 5px;
@@ -26,11 +26,12 @@
   &__container {
     margin-top: 15px;
     margin-left: 20px;
-    padding: 20px;
+    padding: 12px;
     background-color: $background-post;
     border: 1px solid $background-post;
     border-radius: 20px;
   }
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,7 @@
   }
   &__trend {
     margin-top: 10px;
+
     span {
       color: $text-color;
       font-size: 14px;
@@ -49,8 +51,14 @@
     h4 {
       margin-top: 3px;
       margin-bottom: 3px;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 700;
+      color: $widgest-color;
     }
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }

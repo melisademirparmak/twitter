@@ -6,6 +6,11 @@
   border-bottom: 1px solid $twitter-background;
   padding-bottom: 10px;
 
+  &:hover {
+    background-color: $background-post;
+    transition: all 1s;
+  }
+
   &__body {
     flex: 1;
     padding: 10px;
