@@ -4,7 +4,7 @@ import './css/style.css';
 
 function App() {
   return (
-    <Layout>
+    <Layout title="Home">
       <Feed />
     </Layout>
   );
