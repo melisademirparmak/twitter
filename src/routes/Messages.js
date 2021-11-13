@@ -1,16 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout';
-
-function Explore() {
+function Messages() {
   return (
     <div className="container-large">
-      <Layout title="Explore">
+      <Layout title="Messages">
         <div className="feed">
-          <h2>Explore</h2>
+          <h2>Notifications</h2>
         </div>
       </Layout>
     </div>
   );
 }
 
-export default Explore;
+export default Messages;
