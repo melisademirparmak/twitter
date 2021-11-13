@@ -1,15 +1,12 @@
-import SideBar from './components/SideBar';
 import Feed from './components/Feed';
-import Widgets from './components/Widgets';
+import Layout from './components/layout';
 import './css/style.css';
 
 function App() {
   return (
-    <div className="container-large app">
-      <SideBar />
+    <Layout>
       <Feed />
-      <Widgets />
-    </div>
+    </Layout>
   );
 }
 

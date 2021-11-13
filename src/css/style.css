@@ -37,6 +37,21 @@
   margin-right: 20px;
 }
 
+.sideBarList a {
+  color: #000;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sideBarList a:active {
+  color: #000;
+}
+
 .sideBar {
   border-right: 1px solid #e6ecf0;
   -webkit-box-flex: 0.2;

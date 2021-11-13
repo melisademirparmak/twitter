@@ -4,6 +4,7 @@ import { AiOutlineRetweet } from '@react-icons/all-files/ai/AiOutlineRetweet';
 import { BiHeart } from '@react-icons/all-files/bi/BiHeart';
 import { FiShare } from '@react-icons/all-files/fi/FiShare';
 import Posts from '../api/post.json';
+import Layout from './layout';
 
 function Post() {
   return (
