@@ -14,11 +14,12 @@ function Follow() {
                 src="https://p.kindpng.com/picc/s/78-786678_avatar-hd-png-download.png"
                 alt=""
               />
+              <div className="follow__user">
+                <h4>Adam</h4>
+                <span>@adam</span>
+              </div>
             </div>
-            <div className="follow__user">
-              <span>Adam</span>
-              <span>@adam</span>
-            </div>
+            <button className="follow__followBtn">Follow</button>
           </div>
         </div>
       </div>

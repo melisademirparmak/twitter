@@ -1,10 +1,33 @@
-.follow {
-  display: flex;
-}
+@import 'mixins';
+@import 'variables';
 
-.follow__avatar {
-  img {
-    width: 48px;
-    height: 48px;
+.follow {
+  @include flex(flex, center);
+  justify-content: space-between;
+  margin-top: 10px;
+
+  &__avatar {
+    display: flex;
+    img {
+      @include size(48px, 48px);
+      margin-right: 10px;
+    }
+  }
+  &__user {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: $text-color;
+      font-size: 14px;
+    }
+  }
+  &__followBtn {
+    background-color: #000;
+    color: $white;
+    cursor: pointer;
+    @include size(74px, 32px);
+    @include radius(20px);
+    @include font(14px, 600);
   }
 }

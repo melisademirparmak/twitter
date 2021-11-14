@@ -58,5 +58,8 @@
   &__title {
     @include flex(flex, center);
     justify-content: space-between;
+    h2 {
+      @include font(20px, 800);
+    }
   }
 }
