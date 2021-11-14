@@ -26,7 +26,7 @@
   }
 
   &__footer {
-    @include font(flex, center);
+    @include flex(flex, center);
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;

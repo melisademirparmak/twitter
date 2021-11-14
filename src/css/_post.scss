@@ -1,5 +1,5 @@
 @import 'variables';
-@import 'mixinss';
+@import 'mixins';
 .post {
   @include flex(flex, flex-start);
   border-bottom: 1px solid $twitter-background;
@@ -39,7 +39,7 @@
   &__avatar {
     img {
       @include size(50px, 50px);
-      @include size(50%);
+      @include radius(50%);
       object-fit: cover;
       margin-left: 10px;
       margin-top: 3px;
