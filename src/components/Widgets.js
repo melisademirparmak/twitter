@@ -3,6 +3,7 @@ import { BiSearchAlt2 } from '@react-icons/all-files/bi/BiSearchAlt2';
 import { FiMoreHorizontal } from '@react-icons/all-files/fi/FiMoreHorizontal';
 import { FiSettings } from '@react-icons/all-files/fi/FiSettings';
 import trends from '../api/trends.json';
+import Follow from './Follow';
 
 function Widgets() {
   return (
@@ -32,6 +33,7 @@ function Widgets() {
             </div>
           ))}
         </div>
+        <Follow />
       </div>
     </>
   );
