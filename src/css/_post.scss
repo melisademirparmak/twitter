@@ -1,8 +1,7 @@
 @import 'variables';
-
+@import 'mixinss';
 .post {
-  display: flex;
-  align-items: flex-start;
+  @include flex(flex, flex-start);
   border-bottom: 1px solid $twitter-background;
   padding-bottom: 10px;
 
@@ -16,14 +15,13 @@
     padding: 10px;
 
     img {
-      border-radius: 20px;
+      @include radius(20px);
       width: 100%;
       margin-top: 10px;
     }
 
     span {
-      font-weight: 400;
-      font-size: 11px;
+      @include font(11px, 400);
       margin-left: 5px;
       color: $gray;
     }
@@ -40,10 +38,9 @@
 
   &__avatar {
     img {
-      width: 50px;
-      height: 50px;
+      @include size(50px, 50px);
+      @include size(50%);
       object-fit: cover;
-      border-radius: 50%;
       margin-left: 10px;
       margin-top: 3px;
     }

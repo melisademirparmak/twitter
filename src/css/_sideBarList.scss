@@ -1,8 +1,8 @@
 @import 'variables';
+@import 'mixins';
 
 .sideBarList {
-  display: flex;
-  align-items: center;
+  @include flex(flex, center);
   cursor: pointer;
 
   &__Active {
@@ -14,7 +14,7 @@
 
   &:hover {
     background-color: $background-post !important;
-    border-radius: 30px;
+    @include radius(30px);
     color: black;
     transition: $background-post 100ms ease-out;
   }
@@ -26,18 +26,15 @@
   }
 
   h2 {
-    font-weight: 500;
-    font-size: 20px;
+    @include font(20px, 500);
     margin-right: 20px;
   }
   a {
     color: #000;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    @include flex(flex, center);
     &:active {
       color: #000;
     }
   }
 }
-

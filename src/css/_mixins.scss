@@ -1,0 +1,16 @@
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin radius($radius) {
+  border-radius: $radius;
+}
+@mixin font($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+@mixin flex($display, $align-items) {
+  display: $display;
+  align-items: $align-items;
+}

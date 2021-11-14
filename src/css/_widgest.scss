@@ -1,14 +1,14 @@
 @import 'variables';
+@import 'mixins';
 
 .widgest {
   flex: 0.3;
 
   &__input {
-    display: flex;
-    align-items: center;
+    @include flex(flex, center);
+    @include radius(20px);
     background-color: $background-post;
     padding: 10px;
-    border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
 
@@ -29,7 +29,7 @@
     padding: 12px;
     background-color: $background-post;
     border: 1px solid $background-post;
-    border-radius: 20px;
+    @include radius(20px);
   }
 
   &__top {
@@ -51,14 +51,12 @@
     h4 {
       margin-top: 3px;
       margin-bottom: 3px;
-      font-size: 15px;
-      font-weight: 700;
+      @include font(15px, 700);
       color: $widgest-color;
     }
   }
   &__title {
-    display: flex;
-    align-items: center;
+    @include flex(flex, center);
     justify-content: space-between;
   }
 }

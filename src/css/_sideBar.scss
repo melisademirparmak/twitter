@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 .sideBar {
   border-right: 1px solid $twitter-background;
   flex: 0.2;
@@ -18,9 +19,8 @@
     color: $white;
     font-weight: 900;
     text-transform: inherit;
-    border-radius: 30px;
-    height: 50px;
-    width: 170px;
+    @include radius(30px);
+    @include size(50px, 170px);
     margin-top: 20px;
     cursor: pointer;
 

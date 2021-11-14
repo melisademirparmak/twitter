@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 .tweetBox {
   padding: 0 10px 10px 0;
   border-bottom: 1px solid $twitter-background;
@@ -15,21 +16,18 @@
   }
 
   &__input {
-    display: flex;
-    align-items: center;
+    @include flex(flex, center);
     padding: 10px;
     img {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
+      @include size(48px, 48px);
+      @include radius(50%);
       object-fit: cover;
     }
   }
 
   &__footer {
-    display: flex;
+    @include font(flex, center);
     justify-content: space-between;
-    align-items: center;
     width: 80%;
     margin: 0 auto;
   }
@@ -39,12 +37,11 @@
       color: $twitter-color;
       cursor: pointer;
       padding: 5px !important;
-      width: 27px;
-      height: 27px;
+      @include size(27px, 27px);
 
       &:hover {
         background-color: $background-post;
-        border-radius: 50%;
+        @include radius(50%);
       }
     }
   }
@@ -52,11 +49,9 @@
     background-color: $twitter-color;
     color: $white;
     text-transform: inherit;
-    border-radius: 30px;
-    width: 80px;
-    height: 30px;
-    font-weight: 700;
+    @include radius(30px);
+    @include size(80px, 30px);
+    @include font(12px, 700);
     cursor: pointer;
-    font-size: 12px;
   }
 }
