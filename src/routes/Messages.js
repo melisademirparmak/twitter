@@ -5,7 +5,7 @@ function Messages() {
     <div className="container-large">
       <Layout title="Messages">
         <div className="feed">
-          <h2>Notifications</h2>
+          <h2>Messages</h2>
         </div>
       </Layout>
     </div>

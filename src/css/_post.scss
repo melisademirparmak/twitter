@@ -4,6 +4,7 @@
   @include flex(flex, flex-start);
   border-bottom: 1px solid $twitter-background;
   padding-bottom: 10px;
+  cursor: pointer;
 
   &:hover {
     background-color: $background-post;

@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+.message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 50px;
+  width: 500px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  border: 1px solid $twitter-background;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  h3 {
+    margin: 15px 0 5px 20px;
+  }
+
+  &__icon {
+    margin: 0 15px;
+    display: flex;
+
+    svg {
+      @include size(25px, 25px);
+      cursor: pointer;
+      margin: 15px 15px 0 0;
+    }
+  }
+
+  &__iconMessage {
+    margin-right: 30px;
+  }
+
+  &__open {
+    height: 500px;
+  }
+}
