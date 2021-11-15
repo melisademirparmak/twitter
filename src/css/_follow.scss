@@ -4,13 +4,12 @@
 .follow {
   @include flex(flex, center);
   justify-content: space-between;
-  margin-top: 10px;
-
+  margin: 10px 0;
   &__avatar {
     display: flex;
     img {
       @include size(48px, 48px);
-      margin-right: 10px;
+      margin: 0 10px 0 20px;
     }
   }
   &__user {
@@ -24,8 +23,9 @@
   }
   &__followBtn {
     background-color: #000;
-    color: $white;
     cursor: pointer;
+    margin-right: 20px;
+    color: $white;
     @include size(74px, 32px);
     @include radius(20px);
     @include font(14px, 600);

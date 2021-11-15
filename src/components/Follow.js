@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../ui/Button';
 
 function Follow() {
   return (
@@ -21,6 +22,7 @@ function Follow() {
             </div>
             <button className="follow__followBtn">Follow</button>
           </div>
+          <Button />
         </div>
       </div>
     </>

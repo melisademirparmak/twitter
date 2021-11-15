@@ -13,3 +13,7 @@
   display: $display;
   align-items: $align-items;
 }
+@mixin hover() {
+  background-color: rgba(143, 135, 135, 0.1);
+  transition: all 1.5s;
+}

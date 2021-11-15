@@ -1,10 +1,9 @@
 import React from 'react';
-import { BsFillReplyFill } from '@react-icons/all-files/bs/BsFillReplyFill';
+import { FaRegComment } from '@react-icons/all-files/fa/FaRegComment';
 import { AiOutlineRetweet } from '@react-icons/all-files/ai/AiOutlineRetweet';
 import { BiHeart } from '@react-icons/all-files/bi/BiHeart';
 import { FiShare } from '@react-icons/all-files/fi/FiShare';
 import Posts from '../api/post.json';
-import Layout from './layout';
 
 function Post() {
   return (
@@ -30,10 +29,10 @@ function Post() {
               </div>
               {post.photo && <img src={post.photo} alt="" />}
               <div className="post__footer">
-                <BsFillReplyFill />
-                <AiOutlineRetweet />
-                <BiHeart />
-                <FiShare />
+                <FaRegComment className="post__iconblue" />
+                <AiOutlineRetweet className="post__icongreen" />
+                <BiHeart className="post__iconred" />
+                <FiShare className="post__iconblue" />
               </div>
             </div>
           </div>

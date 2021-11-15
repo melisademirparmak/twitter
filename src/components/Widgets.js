@@ -4,6 +4,7 @@ import { FiMoreHorizontal } from '@react-icons/all-files/fi/FiMoreHorizontal';
 import { FiSettings } from '@react-icons/all-files/fi/FiSettings';
 import trends from '../api/trends.json';
 import Follow from './Follow';
+import Button from '../ui/Button';
 
 function Widgets() {
   return (
@@ -32,6 +33,7 @@ function Widgets() {
               </div>
             </div>
           ))}
+          <Button />
         </div>
         <Follow />
       </div>

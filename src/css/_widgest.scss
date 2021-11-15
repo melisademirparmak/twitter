@@ -9,13 +9,10 @@
     @include radius(20px);
     background-color: $background-post;
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-
+    margin: 10px 20px 20px 0;
     svg {
       color: $text-color;
     }
-
     input {
       border: none;
       background-color: transparent;
@@ -24,9 +21,8 @@
     }
   }
   &__container {
-    margin-top: 15px;
-    margin-left: 20px;
-    padding: 12px;
+    margin: 20px;
+
     background-color: $background-post;
     border: 1px solid $background-post;
     @include radius(20px);
@@ -35,9 +31,15 @@
   &__top {
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
 
     svg {
       color: $text-color;
+    }
+
+    &:hover {
+      @include hover();
     }
   }
   &__trend {
@@ -49,8 +51,7 @@
       margin-bottom: 10px;
     }
     h4 {
-      margin-top: 3px;
-      margin-bottom: 3px;
+      margin: 3px 0;
       @include font(15px, 700);
       color: $widgest-color;
     }
@@ -58,8 +59,24 @@
   &__title {
     @include flex(flex, center);
     justify-content: space-between;
+    margin: 13px 0;
+
     h2 {
       @include font(20px, 800);
+      padding-left: 20px;
     }
+    svg {
+      margin-right: 23px;
+    }
+  }
+  &__show {
+    @include font(17px, 400);
+    text-align: left;
+    color: $twitter-color;
+    padding: 10px 0 10px 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
   }
 }

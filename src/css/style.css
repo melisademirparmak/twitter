@@ -58,9 +58,8 @@
       -ms-flex: 0.2;
           flex: 0.2;
   margin-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-  max-height: 100%;
+  padding: 0 20px;
+  height: 100%;
 }
 
 .sideBar__TwitterIcon {
@@ -135,7 +134,6 @@
 
 .tweetBox > form input {
   border: none;
-  line-height: 48px;
   font-size: 17px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -254,8 +252,7 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-left: 10px;
-  margin-top: 3px;
+  margin: 3px 0 0 10px;
 }
 
 .post__footer {
@@ -266,6 +263,30 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
+}
+
+.post__footer svg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #536471;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.post__iconblue:hover {
+  background-color: rgba(29, 155, 240, 0.3);
+  color: #1d9bf0;
+}
+
+.post__icongreen:hover {
+  background-color: rgba(166, 227, 207, 0.3);
+  color: #59b194;
+}
+
+.post__iconred:hover {
+  background-color: rgba(204, 131, 166, 0.3);
+  color: #ec2828;
 }
 
 .post__headerDescription {
@@ -291,8 +312,7 @@
   border-radius: 20px;
   background-color: #f5f8fa;
   padding: 10px;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin: 10px 20px 20px 0;
 }
 
 .widgest__input svg {
@@ -307,9 +327,7 @@
 }
 
 .widgest__container {
-  margin-top: 15px;
-  margin-left: 20px;
-  padding: 12px;
+  margin: 20px;
   background-color: #f5f8fa;
   border: 1px solid #f5f8fa;
   border-radius: 20px;
@@ -322,10 +340,18 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 .widgest__top svg {
   color: #696262;
+}
+
+.widgest__top:hover {
+  background-color: rgba(143, 135, 135, 0.1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .widgest__trend {
@@ -339,8 +365,7 @@
 }
 
 .widgest__trend h4 {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin: 3px 0;
   font-size: 15px;
   font-weight: 700;
   color: #0f1419;
@@ -356,11 +381,29 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 13px 0;
 }
 
 .widgest__title h2 {
   font-size: 20px;
   font-weight: 800;
+  padding-left: 20px;
+}
+
+.widgest__title svg {
+  margin-right: 23px;
+}
+
+.widgest__show {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  color: #1d9bf0;
+  padding: 10px 0 10px 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .follow {
@@ -373,7 +416,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .follow__avatar {
@@ -385,7 +428,7 @@
 .follow__avatar img {
   width: 48px;
   height: 48px;
-  margin-right: 10px;
+  margin: 0 10px 0 20px;
 }
 
 .follow__user {
@@ -405,8 +448,9 @@
 
 .follow__followBtn {
   background-color: #000;
-  color: #fff;
   cursor: pointer;
+  margin-right: 20px;
+  color: #fff;
   width: 74px;
   height: 32px;
   border-radius: 20px;

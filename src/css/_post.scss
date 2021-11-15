@@ -41,8 +41,7 @@
       @include size(50px, 50px);
       @include radius(50%);
       object-fit: cover;
-      margin-left: 10px;
-      margin-top: 3px;
+      margin: 3px 0 0 10px;
     }
   }
 
@@ -50,8 +49,29 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+
+    svg {
+      @include size(35px, 35px);
+      @include radius(50%);
+      color: rgb(83, 100, 113);
+      padding: 10px;
+      cursor: pointer;
+    }
   }
 
+  &__iconblue:hover {
+    background-color: rgba($twitter-color, 0.3);
+    color: $twitter-color;
+  }
+
+  &__icongreen:hover {
+    background-color: rgba(#a6e3cf, 0.3);
+    color: #59b194;
+  }
+  &__iconred:hover {
+    background-color: rgba(#cc83a6, 0.3);
+    color: #ec2828;
+  }
   &__headerDescription {
     font-size: 13px;
     letter-spacing: 0.1px;
