@@ -312,7 +312,7 @@
   border-radius: 20px;
   background-color: #f5f8fa;
   padding: 10px;
-  margin: 10px 20px 20px 0;
+  margin: 10px 20px 20px 20px;
 }
 
 .widgest__input svg {
@@ -456,6 +456,31 @@
   border-radius: 20px;
   font-size: 14px;
   font-weight: 600;
+}
+
+.footer {
+  margin-left: 20px;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__href {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #696262;
+}
+
+.footer__href:hover {
+  text-decoration: underline;
 }
 
 .container-large {

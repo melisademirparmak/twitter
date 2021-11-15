@@ -5,6 +5,7 @@ import { FiSettings } from '@react-icons/all-files/fi/FiSettings';
 import trends from '../api/trends.json';
 import Follow from './Follow';
 import Button from '../ui/Button';
+import Footer from './Footer';
 
 function Widgets() {
   return (
@@ -36,6 +37,7 @@ function Widgets() {
           <Button />
         </div>
         <Follow />
+        <Footer />
       </div>
     </>
   );
