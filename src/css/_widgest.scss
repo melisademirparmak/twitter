@@ -9,7 +9,7 @@
     @include radius(20px);
     background-color: $background-post;
     padding: 10px;
-    margin: 10px 20px 20px ;
+    margin: 10px 20px 20px;
     svg {
       color: $text-color;
     }
@@ -35,7 +35,7 @@
       color: $text-color;
     }
     &:hover {
-      @include hover();
+      @include hover;
     }
   }
   &__trend {
@@ -68,9 +68,6 @@
     text-align: left;
     color: $twitter-color;
     padding: 10px 0 10px 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
     cursor: pointer;
   }
 }

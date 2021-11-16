@@ -17,3 +17,6 @@
   background-color: rgba(143, 135, 135, 0.1);
   transition: all 1.5s;
 }
+@mixin transition() {
+  transition: all 500ms;
+}

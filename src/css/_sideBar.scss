@@ -5,7 +5,7 @@
   flex: 0.2;
   margin-top: 10px;
   padding: 0 20px;
-  height: 100%;
+  max-height: 100vh;
 
   &__TwitterIcon {
     color: $twitter-color;
@@ -17,16 +17,15 @@
     background-color: $twitter-color;
     color: $white;
     font-weight: 900;
-    text-transform: inherit;
     @include radius(30px);
     @include size(200px, 50px);
+    @include transition;
     margin-top: 20px;
     cursor: pointer;
 
     &:hover {
       background-color: $twitter-color;
       opacity: 0.9;
-      transition: $twitter-color 100ms ease-out;
     }
   }
 }

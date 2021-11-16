@@ -5,16 +5,19 @@
   @include flex(flex, center);
   justify-content: space-between;
   margin: 10px 0;
+
   &__avatar {
     display: flex;
     img {
       @include size(48px, 48px);
       margin: 0 10px 0 20px;
+      cursor: pointer;
     }
   }
   &__user {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 
     span {
       color: $text-color;

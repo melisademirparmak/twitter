@@ -8,7 +8,7 @@
 
   &:hover {
     background-color: $background-post;
-    transition: all 1s;
+    @include transition;
   }
 
   &__body {
@@ -54,6 +54,7 @@
     svg {
       @include size(35px, 35px);
       @include radius(50%);
+      @include transition;
       color: rgb(83, 100, 113);
       padding: 10px;
       cursor: pointer;
@@ -76,7 +77,6 @@
   &__headerDescription {
     font-size: 13px;
     letter-spacing: 0.1px;
-    line-height: 18px;
     color: $text-color;
   }
 }

@@ -7,16 +7,14 @@ import Messages from './Messages';
 
 function layout({ children, title }) {
   return (
-    <div className="root">
-      <div className="container-large app">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>{`${title} / Twitter`}</title>
-        </Helmet>
-        <SideBar />
-        {children}
-        <Widgets />
-      </div>
+    <div className="container-large app">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{`${title} / Twitter`}</title>
+      </Helmet>
+      <SideBar />
+      {children}
+      <Widgets />
       <Messages />
     </div>
   );

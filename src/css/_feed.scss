@@ -14,13 +14,12 @@
     position: sticky;
     top: 0;
     background-color: $white;
-    z-index: 100;
     border: 1px solid $twitter-background !important;
     padding: 7px;
 
     h2 {
       font-size: 23px;
-      padding-top: 10px;
+      padding-top: 5px;
     }
   }
 }

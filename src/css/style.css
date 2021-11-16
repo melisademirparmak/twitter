@@ -21,8 +21,8 @@
   background-color: #f5f8fa !important;
   border-radius: 30px;
   color: black;
-  -webkit-transition: #f5f8fa 100ms ease-out;
-  transition: #f5f8fa 100ms ease-out;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .sideBarList svg {
@@ -38,14 +38,15 @@
 }
 
 .sideBarList a {
-  color: #000;
-  text-decoration: none;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #000;
 }
 
 .sideBarList a:active {
@@ -59,7 +60,7 @@
           flex: 0.2;
   margin-top: 10px;
   padding: 0 20px;
-  height: 100%;
+  max-height: 100vh;
 }
 
 .sideBar__TwitterIcon {
@@ -72,10 +73,11 @@
   background-color: #1d9bf0;
   color: #fff;
   font-weight: 900;
-  text-transform: inherit;
   border-radius: 30px;
   width: 200px;
   height: 50px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -83,8 +85,6 @@
 .sideBar__Btn:hover {
   background-color: #1d9bf0;
   opacity: 0.9;
-  -webkit-transition: #1d9bf0 100ms ease-out;
-  transition: #1d9bf0 100ms ease-out;
 }
 
 .feed {
@@ -107,14 +107,13 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: 100;
   border: 1px solid #e6ecf0 !important;
   padding: 7px;
 }
 
 .feed__header h2 {
   font-size: 23px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .tweetBox {
@@ -133,11 +132,11 @@
 }
 
 .tweetBox > form input {
-  border: none;
-  font-size: 17px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  border: none;
+  font-size: 17px;
   margin-left: 8px;
 }
 
@@ -213,8 +212,8 @@
 
 .post:hover {
   background-color: #f5f8fa;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .post__body {
@@ -270,6 +269,8 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
   color: #536471;
   padding: 10px;
   cursor: pointer;
@@ -293,7 +294,6 @@
 .post__headerDescription {
   font-size: 13px;
   letter-spacing: 0.1px;
-  line-height: 18px;
   color: #696262;
 }
 
@@ -401,9 +401,6 @@
   text-align: left;
   color: #1d9bf0;
   padding: 10px 0 10px 20px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 10px;
   cursor: pointer;
 }
 
@@ -430,6 +427,7 @@
   width: 48px;
   height: 48px;
   margin: 0 10px 0 20px;
+  cursor: pointer;
 }
 
 .follow__user {
@@ -440,6 +438,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
 }
 
 .follow__user span {
@@ -524,6 +523,9 @@
   margin-right: 20px;
   font-size: 12px;
   color: #696262;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .footer__href:hover {
@@ -541,10 +543,6 @@
   display: -ms-flexbox;
   display: flex;
   max-height: 100vh;
-}
-
-.root {
-  max-height: 100vh !important;
 }
 
 * {
